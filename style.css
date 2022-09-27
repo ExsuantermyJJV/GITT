@@ -9,7 +9,7 @@
   font-size: 15px;
   font-weight: 600;
   border-radius: 4px;
-  z-index: 1;
+
  }
  
  .download-button .docs {
@@ -20,7 +20,7 @@
   min-height: 30px;
   padding: 0 10px;
   border-radius: 4px;
-  z-index: 1;
+ 
   background-color: black;
   border: solid 1px #ffffff;
   transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
