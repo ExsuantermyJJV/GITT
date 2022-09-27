@@ -1053,17 +1053,17 @@ button a{
       gap: 1.5rem;
     }
   }
-@media (max-width: 400px)
+@media (min-width: 400px)
 .home .content h3 {
     font-size: 95%;
     
 }
-@media (max-width: 340px)
+@media (min-width: 340px)
 .home .content h3 {
     font-size: 90%;
   
 }
-@media (max-width: 300px)
+@media (min-width: 300px)
 .home .content h3 {
     font-size: 70%;
     color: #fff;
