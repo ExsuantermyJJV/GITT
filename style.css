@@ -465,17 +465,16 @@ header .fa-bars {
   width: 0;
 }}
 
-.box-container .box h3::before{
-  content: "</ ";
-  color: #00d9ff;
-
+.heading span::before{
+  content: "<h1> ";
+  color: #ffffff;
+font-size: 60%;
 }
-.box-container .box h3::after{
-  content: " />";
-  color: #00d9ff;
-
+.heading span::after{
+  content: " <h1>";
+  color: #ffffff;
+  font-size: 60%;
 }
-
 
    .text3::before {
    content: "</";
