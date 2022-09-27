@@ -465,16 +465,27 @@ header .fa-bars {
   width: 0;
 }}
 
-.heading span::before{
-  content: "<h1> ";
-  color: #ffffff;
-font-size: 60%;
-}
-.heading span::after{
-  content: " <h1>";
-  color: #ffffff;
-  font-size: 60%;
-}
+box-container .box h3::before {
+  content: "<h1>  ";
+  color: #00d9ff;
+  font-size: 70%;
+
+ }
+ .box-container .box h3::after {
+   content: " </h1>";
+color: #00d9ff;
+font-size: 70%;
+  }
+
+   .box-container3 .box3 h3::before {
+   content: "</ ";
+   color: #000000;
+
+  }
+  .box-container3 .box3 h3::after {
+    content: " >";
+ color: #000000;
+   }
 
    .text3::before {
    content: "</";
