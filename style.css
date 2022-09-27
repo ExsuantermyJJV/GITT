@@ -233,7 +233,7 @@ a {
 
 /*Sección */
 
-/*Sección */
+
 /*Sección */
 #seccion1{
 
@@ -335,8 +335,6 @@ a {
 
 /*  fin acordeon */
 
-
-
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -357,8 +355,6 @@ a {
    background-color: #000000;
 }
 
-
-/*------------cartas---------*/
 /* contenido alterno - body */
 
 section {
@@ -373,7 +369,7 @@ section {
     color: #00d9ff;
 
   }
-  
+ 
 
 * {
    
@@ -783,18 +779,8 @@ header .fa-bars {
 
 }
 
-
-
 /* servicios */
-   
-/* */
-
-
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
+  
 .wrapper {
   height: 100vh;
   background: #333;
@@ -949,10 +935,7 @@ button a{
 .open {
   animation-iteration-count: 1;
 }
-
 /* */ 
-
-
 .footer {
     text-align: center;
    
@@ -1037,10 +1020,6 @@ button a{
       }
   
   }
- 
-  
-  
-  
   @media (max-width: 450px) {
     html {
       font-size: 50%;
@@ -1053,7 +1032,6 @@ button a{
       gap: 1.5rem;
     }
   }
-
 
   @media (max-width: 850px) {
    
@@ -1109,8 +1087,7 @@ button a{
  
   
   }
-
-  
+ 
 @media (max-width: 1200px) {
     
   html {
@@ -1130,19 +1107,3 @@ button a{
     font-size: 5vh;
   }
 }
-@media (max-width: 400px)
-.text3 {
-    font-size: 95%;
-    
-}
-@media (max-width: 340px)
-.text3 {
-    font-size: 90%;
-  
-}
-@media (max-width: 300px)
-.text3 {
-    font-size: 70%;
-   
-}
-
