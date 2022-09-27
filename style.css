@@ -481,12 +481,12 @@ header .fa-bars {
 }
 
 
-   .text3 h3::before {
+   .text3::before {
    content: "</";
    color: #00d9ff;
 
   }
-  .text3 h3::after {
+  .text3::after {
     content: "/>";
  color: #00d9ff;
    }
