@@ -1130,20 +1130,19 @@ button a{
     font-size: 5vh;
   }
 }
+
 @media (max-width: 400px)
 .home .content h3 {
-    font-size: 95%;
+    font-size: 95vh;
     
 }
 @media (max-width: 340px)
 .home .content h3 {
-    font-size: 90%;
+    font-size: 90vh;
   
 }
 @media (max-width: 300px)
 .home .content h3 {
-    font-size: 70%;
-    color: #fff;
-    padding-bottom: 1rem;
-    background-color: #000000b9;
+    font-size: 70vh;
+   
 }
