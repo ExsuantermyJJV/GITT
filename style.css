@@ -302,7 +302,14 @@ a {
       font-size: 1.5em;
        padding-bottom: 2.7em;
   }
-
+.circulo{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #f4f5f4cb;
+  
+ 
+}
 }
 
 
@@ -315,7 +322,14 @@ a {
       height: 3vh;
      
   }
-
+.circulo{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #f4f5f4cb;
+  
+ 
+}
 }
 
 
