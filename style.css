@@ -419,7 +419,7 @@ width: 35em;
 header .navbar ul li {
   margin: 0 1rem;
 }
-.header .navbar ul li a:hover {
+header .navbar a:hover {
     color: #00d9ff;
 }
 header .navbar ul li a {
