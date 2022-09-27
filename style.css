@@ -1053,23 +1053,7 @@ button a{
       gap: 1.5rem;
     }
   }
-@media (min-width: 400px)
-.home .content h3 {
-    font-size: 95%;
-    
-}
-@media (min-width: 340px)
-.home .content h3 {
-    font-size: 90%;
-  
-}
-@media (min-width: 300px)
-.home .content h3 {
-    font-size: 70%;
-    color: #fff;
-    padding-bottom: 1rem;
-    background-color: #000000b9;
-}
+
 
   @media (max-width: 850px) {
    
@@ -1145,4 +1129,21 @@ button a{
     font-weight: 700;
     font-size: 5vh;
   }
+}
+@media (max-width: 400px)
+.home .content h3 {
+    font-size: 95%;
+    
+}
+@media (max-width: 340px)
+.home .content h3 {
+    font-size: 90%;
+  
+}
+@media (max-width: 300px)
+.home .content h3 {
+    font-size: 70%;
+    color: #fff;
+    padding-bottom: 1rem;
+    background-color: #000000b9;
 }
