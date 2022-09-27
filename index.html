@@ -7,6 +7,8 @@
     <title>MyPortafolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+
 	 <link rel="shortcut icon" href="./img/faviconimg.jpg" type="image/x-icon">
 </head>
 <body>
@@ -40,7 +42,7 @@
  <div class="card">
     <div class="card-border-top">
     </div>
-    <div class="img">  <img Class="img" src="./img/perfil.jpg" alt="">
+    <div class="img">  <img data-aos="flip-left" Class="img" src="./img/perfil.jpg" alt="">
     </div>
     <h2> Juan Vasquez</h2>
     <p class="job"> Programador</p>
@@ -145,26 +147,26 @@ Certificados            </h2>
         <div class="box-container3">
     
             <div class="box3">
-                <img class="serviciofoto1" src="./img/html.jpg" alt="">
+                <img data-aos="zoom-in" class="serviciofoto1" src="./img/html.jpg" alt="">
                 <h3>Html</h3>
               
             </div>
     
             <div class="box3">
-                <img class="serviciofoto1" src="./img/css.jpg" alt="">
+                <img data-aos="zoom-in" class="serviciofoto1" src="./img/css.jpg" alt="">
 
                 <h3>Css</h3>
                
             </div>
     
             <div class="box3">
-                <img class="serviciofoto1" src="./img/js.jpg" alt="">
+                <img data-aos="zoom-in" class="serviciofoto1" src="./img/js.jpg" alt="">
                 <h3>JavaScript</h3>
              
             </div>
     
             <div class="box3">
-                <img class="serviciofoto1" src="./img/git.jpg" alt="">
+                <img data-aos="zoom-in" class="serviciofoto1" src="./img/git.jpg" alt="">
                 <h3>Github</h3>
                 
             </div>
@@ -177,7 +179,7 @@ Certificados            </h2>
 
       <section class="about" id="about">
         <div class="image">
-            <img src="./img/fondo2.jpg" alt="">
+            <img data-aos="fade-right" src="./img/fondo2.jpg" alt="">
         </div>
         <div class="content">
             <h3>Diseño <span> web </span> </h3>
@@ -190,7 +192,7 @@ Certificados            </h2>
 
 <br> 
 <hr>
-<section class="about" id="about">
+<section data-aos="fade-right" class="about" id="about">
     
     <div class="image">
         <img src="./img/fondo1.jpg" alt="">
@@ -224,21 +226,25 @@ Certificados            </h2>
         <div class="box-container">
     
             <a target="_blank" href="https://ropamyjjv.netlify.app/">   <div class="box">
-            <img class="serviciofoto" src="./img/pagropa1.png" alt="">
+            <img data-aos="fade-up"
+     data-aos-duration="3000" class="serviciofoto" src="./img/pagropa1.png" alt="">
                 <h3>Ropa myJJV</h3>
             </div></a>
             <a target="_blank" href="https://animalsmyjjv.netlify.app/">   <div class="box">
-                <img class="serviciofoto" src="./img/animals.png" alt="">
+                <img data-aos="fade-up"
+     data-aos-duration="3000" class="serviciofoto" src="./img/animals.png" alt="">
 
                 <h3>Animals</h3>
             </div></a>
             <a target="_blank" href="https://agenciamomemtum.netlify.app/">    <div class="box">
-                <img class="serviciofoto" src="./img/momentum.png" alt="">
+                <img data-aos="fade-up"
+     data-aos-duration="3000" class="serviciofoto" src="./img/momentum.png" alt="">
                 <h3>Agencia momentum</h3>
             </div></a>
     
             <a target="_blank" href="https://tiendamascotass.netlify.app/">    <div class="box">
-                <img class="serviciofoto" src="./img/fondopet.png" alt="">
+                <img data-aos="fade-up"
+     data-aos-duration="3000" class="serviciofoto" src="./img/fondopet.png" alt="">
 
                 <h3>Pet'Shop</h3>
             </div></a>
@@ -300,6 +306,12 @@ Certificados            </h2>
 </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
 
 
     <script>
