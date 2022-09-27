@@ -465,7 +465,7 @@ header .fa-bars {
   width: 0;
 }}
 
-box-container .box h3::before {
+.box-container .box h3::before {
   content: "<h1>  ";
   color: #00d9ff;
   font-size: 70%;
